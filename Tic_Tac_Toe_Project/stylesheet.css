@@ -1,0 +1,309 @@
+		/*styles for tic tac toe game*/
+		/*style starts*/
+		/*style for main window*/
+		.main
+		{
+			position: absolute;
+			width:100%;
+			height:100%;
+			background-color: black; 
+		}
+		@font-face 
+		{
+			/*custom font is used*/
+    	font-family: 'Reingttoon DEMO';
+   		src: url('Reingttoon DEMO.ttf'); /*select font file*/
+		}
+		/*style for workspace*/
+		.workspace
+		{
+			position: absolute;
+			width:50%;
+			height:75%;
+			top:12%;
+			left:25%; 
+			background-color: #e6f9ff;
+			border-radius:20px; 
+			font-family: oswald, arial, sans-serif;
+			opacity:90%; 
+		}
+		/*style for celebration left side */
+		.paperside1
+		{
+			position: absolute;
+			width:12%;
+			height:75%;
+			top:12%;
+			left:25%; 
+			border-radius:20px; 
+			
+		}
+		/*style for celebration right side*/
+		.paperside2
+		{
+			position: absolute;
+			width:12%;
+			height:75%;
+			top:12%;
+			left:60%;  
+			border-radius:20px; 
+			
+		}
+		/*style for result printing*/
+		.player
+		{
+			position:absolute;
+			width:30%;
+			height:10%;
+			left:40%;
+			top:85%;
+			color: black;
+			font-size:20px; 
+		}
+		/*style for footer*/
+		.footer
+		{
+			position:absolute;
+			width:50%;
+			height:10%;
+			top:80%; 
+			left:25%; 
+			color: grey;
+			font-family: oswald, arial, sans-serif;
+		}
+		/*style for title color*/
+		.title
+		{
+			color:#00bfff;
+			font-size:30px;
+			font-family:'Reingttoon DEMO';
+		}
+		/*style for tic tac toe frame starts*/
+		/*style for first horizontal line*/
+		.frame1
+		{
+			position: absolute;
+			width:1%;
+			height:60%;
+			left:40%;
+			top:20%;
+			background-color:grey;
+
+		}
+		/*Style for second horizontal line*/
+		.frame2
+		{
+			position: absolute;
+			width:1%;
+			height:60%;
+			left:58%;
+			top:20%;
+			background-color:grey;
+
+		}
+		/*style for first vertical line*/
+		.frame3
+		{
+			position: absolute;
+			width:55%;
+			height:1%;
+			left:22%;
+			top:38%;
+			background-color:grey;
+
+		}
+		/*style for second vertical line*/
+		.frame4
+		{
+			position: absolute;
+			width:55%;
+			height:1%;
+			left:22%;
+			top:60%;
+			background-color:grey;
+
+		}
+		/*frame style ends*/
+		/*Nine buttons are used for setting the frame
+		set font and their size */
+		/*button style starts*/
+		/*style for first buton */
+		.btn1
+		{
+			width:100px;
+			height: 100px;
+			background:#e6f9ff;
+			position:absolute;
+			font-family: oswald, arial, sans-serif;
+			left:24%;
+			font-size:75px;
+			top:18%; 
+			border:solid #e6f9ff;  
+		}
+		/*hover for botton1*/
+		.btn1:hover
+		{
+			border-width:2px;
+			border-color:#80e5ff;
+		}
+		/*style for second button*/
+		.btn2
+		{
+			width:100px;
+			height: 100px;
+			border:none;
+			background:#e6f9ff;
+			position:absolute;
+			left:42%;
+			top:18%;
+			font-size:75px; 
+			font-family: oswald, arial, sans-serif;
+			border:solid #e6f9ff;
+		}
+		/*hover for botton2*/
+		.btn2:hover
+		{
+			border-width:2px;
+			border-color:#80e5ff;
+		}
+		/*style for third button*/
+		.btn3
+		{
+			width:100px;
+			height: 100px;
+			border:none;
+			background:#e6f9ff;
+			position:absolute;
+			left:60%;
+			top:18%; 
+			font-size:75px;
+			font-family: oswald, arial, sans-serif;
+			border:solid #e6f9ff;
+		}
+		/*hover for botton3*/
+		.btn3:hover
+		{
+			border-width:2px;
+			border-color:#80e5ff;
+		}
+		/*style for forth button*/
+		.btn4
+		{
+			width:100px;
+			height: 100px;
+			border:none;
+			background:#e6f9ff;
+			position:absolute;
+			left:24%;
+			top:40%;
+			font-size:75px; 
+			font-family: oswald, arial, sans-serif;
+			border:solid #e6f9ff;
+		}
+		/*hover for botton4*/
+		.btn4:hover
+		{
+			border-width:2px;
+			border-color:#80e5ff;
+		}
+		/*style for fifth button*/
+		.btn5
+		{
+			width:100px;
+			height: 100px;
+			border:none;
+			background:#e6f9ff;
+			position:absolute;
+			left:42%;
+			top:40%; 
+			font-size:75px;
+			font-family: oswald, arial, sans-serif;
+			border:solid #e6f9ff;
+		}
+		/*hover for botton5*/
+		.btn5:hover
+		{
+			border-width:2px;
+			border-color:#80e5ff;
+		}
+		/*style for 6th button*/
+		.btn6
+		{
+			width:100px;
+			height: 100px;
+			border:none;
+			background:#e6f9ff;
+			position:absolute;
+			left:60%;
+			top:40%; 
+			font-size:75px;
+			font-family: oswald, arial, sans-serif;
+			border:solid #e6f9ff;
+		}
+		/*hover for botton6*/
+		.btn6:hover
+		{
+			border-width:2px;
+			border-color:#80e5ff;
+		}
+		/*style for 7 th button*/
+		.btn7
+		{
+			width:100px;
+			height: 100px;
+			border:none;
+			background:#e6f9ff;
+			position:absolute;
+			left:24%;
+			top:62%; 
+			font-size:75px;
+			font-family: oswald, arial, sans-serif;
+			border:solid #e6f9ff;
+		}
+		/*hover for botton7*/
+		.btn7:hover
+		{
+			border-width:2px;
+			border-color:#80e5ff;
+		}
+		/*style for 8 th button*/
+		.btn8
+		{
+			width:100px;
+			height: 100px;
+			border:none;
+			background:#e6f9ff;
+			position:absolute;
+			left:42%;
+			top:62%; 
+			font-size:75px;
+			font-family: oswald, arial, sans-serif;
+			border:solid #e6f9ff;
+		}
+		/*hover for botton8*/
+		.btn8:hover
+		{
+			border-width:2px; 
+			border-color:#80e5ff;
+		}
+		/*style for 9 th button*/
+		.btn9
+		{
+			width:100px;
+			height: 100px;
+			border:none;
+			background:#e6f9ff;
+			position:absolute;
+			left:60%;
+			top:62%; 
+			font-family: oswald, arial, sans-serif;
+			font-size:75px; 
+			border:solid #e6f9ff;
+		}
+		.btn9:hover
+		{
+			border-width:2px;
+			border-color:#80e5ff;
+		}
+		/*button style ends*/
+		/*stylesheet ends*/
